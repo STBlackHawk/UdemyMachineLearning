@@ -42,7 +42,7 @@ plt.ylabel("Salary")
 plt.show
 
 
-#Visualizing SVr with Higher resolution and smoother curve
+#Visualizing SVR with Higher resolution and smoother curve
 X_grid = np.arange(min(X), max(X), 0.1)
 X_grid = X_grid.reshape((len(X_grid), 1))
 plt.scatter(X, y, color = "red")
